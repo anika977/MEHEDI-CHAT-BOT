@@ -46,10 +46,10 @@ module.exports.run = async function({ api, event }) {
 │ ${time}
 └───────────────⭓
  `,
- attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
- }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
+ attachment: fs.createReadStream(")
+ }, event.threadID, () => fs.unlinkSync("));
 
  return request("")
- .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
+ .pipe(fs.createWriteStrea('))
  .on('close', () => callback());
 };
