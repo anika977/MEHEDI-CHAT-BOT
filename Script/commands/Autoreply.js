@@ -60,9 +60,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "umm": "এতো Umm কেনো জানু… কিছু বলবা? 😉",
     "hmm": "Hmmm কিসের হুমম জানু 🥵",
     "love": "Love করলে সরাসরি Mehedi বস কে বল জানু 😻🔥",
-    "Mehedi":"উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
-    "bot": "এত বকবক করিস না বল কি বলবি..🙄",
-    "Bot":"ডাকস কেন বারবার ডিস্টার্ব করিস না তো...😴",
+  
   };
 
   if (!responses[msg]) return;
